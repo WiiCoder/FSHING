@@ -1,5 +1,7 @@
 # FSHING
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 FSHING is a reusable GitHub template for managing multi-repository software projects with AI-assisted requirements, implementation, testing, review, and release workflows.
 
 FSHING contains workflow standards, skills, and document templates. It must not contain the repository URLs, branches, commits, requirements, or releases of a specific product.
