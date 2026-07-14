@@ -1,0 +1,6 @@
+.DS_Store
+**/.DS_Store
+
+# Child repositories are managed independently and must never be added to
+# the project-control repository.
+/repos/*/

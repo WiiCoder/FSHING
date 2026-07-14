@@ -1,0 +1,13 @@
+schema_version: 1
+catalog: releases
+updated_at: null
+
+allowed_statuses:
+  - planning
+  - active
+  - code-freeze
+  - release-ready
+  - released
+  - cancelled
+
+releases: []

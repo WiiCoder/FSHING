@@ -1,0 +1,4 @@
+interface:
+  display_name: "规划功能"
+  short_description: "把已批准需求转化为具体技术设计、实施任务和可追溯测试计划"
+  default_prompt: "使用 $feature-plan 为一个已批准需求生成实施计划。"

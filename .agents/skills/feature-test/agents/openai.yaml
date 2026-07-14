@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试功能"
+  short_description: "依据指定需求版本建立覆盖矩阵、执行测试并记录可审计验证证据"
+  default_prompt: "使用 $feature-test 为指定需求建立并执行测试计划。"

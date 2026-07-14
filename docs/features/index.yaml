@@ -1,0 +1,30 @@
+schema_version: 1
+catalog: requirements
+source_pattern: docs/features/*/spec.md
+exclude_paths:
+  - docs/features/_template
+updated_at: null
+
+allowed_types:
+  - feature
+  - bug
+  - technical
+  - security
+  - operations
+
+allowed_statuses:
+  - backlog
+  - draft
+  - review
+  - ready
+  - scheduled
+  - in-progress
+  - verifying
+  - release-ready
+  - released
+  - blocked
+  - deferred
+  - cancelled
+  - superseded
+
+requirements: []

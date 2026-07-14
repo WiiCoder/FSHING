@@ -1,0 +1,11 @@
+schema_version: 1
+
+project:
+  id: null
+  name: null
+  control_repository: null
+
+workflow:
+  version_file: workflow-version.yaml
+
+repositories: []
