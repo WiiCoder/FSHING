@@ -123,11 +123,25 @@ Do not hardcode technology-specific verification commands in reusable FSHING fil
 
 ## Project Skills
 
-- **requirement-create**: create an identified, versioned requirement.
-- **requirement-change**: revise a requirement and propagate impact.
-- **release-plan**: create or update a release scope.
-- **feature-plan**: create design, tasks, and test coverage for an approved Spec.
-- **feature-implement**: implement tasks against an approved Spec version.
-- **feature-test**: execute and record requirement-level verification.
-- **feature-review**: audit traceability and implementation consistency.
-- **release-verify**: evaluate release gates and release evidence.
+Use the simplified FSHING entry skills for user-facing work:
+
+- **fs-init**: initialize or validate a workspace.
+- **fs-requirement**: route requirement creation or change.
+- **fs-plan**: route release scheduling and feature planning.
+- **fs-implement**: implement an approved requirement.
+- **fs-test**: execute requirement-level verification.
+- **fs-review**: audit implementation and traceability.
+- **fs-release**: plan or verify a release.
+
+If a client passes **/fs-init**, **/fs-requirement**, **/fs-plan**, **/fs-implement**, **/fs-test**, **/fs-review**, or **/fs-release** as ordinary prompt text, treat it as invocation of the matching **fs-*** skill.
+
+The following skills are the internal execution layer and remain available for direct expert use:
+
+- **requirement-create**
+- **requirement-change**
+- **release-plan**
+- **feature-plan**
+- **feature-implement**
+- **feature-test**
+- **feature-review**
+- **release-verify**

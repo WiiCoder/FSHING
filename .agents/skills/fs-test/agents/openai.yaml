@@ -1,0 +1,4 @@
+interface:
+  display_name: "FSHING 测试"
+  short_description: "依据需求版本执行验收覆盖、组件测试并记录可审计验证证据"
+  default_prompt: "使用 $fs-test 测试指定需求并评估发布就绪状态。"

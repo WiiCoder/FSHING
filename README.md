@@ -54,6 +54,47 @@ Each project control repository must have its own Git origin. Project data must 
 6. Commit workspace files to the project control repository.
 7. Create requirements under **docs/features/** and releases under **docs/releases/**.
 
+## Simplified Commands
+
+FSHING exposes seven public workflow entry points:
+
+| Command | Purpose |
+|---|---|
+| /fs-init | Initialize or validate the project workspace |
+| /fs-requirement | Create a requirement or change an existing requirement |
+| /fs-plan | Schedule and plan an approved requirement |
+| /fs-implement | Implement a planned requirement |
+| /fs-test | Test the requirement and collect evidence |
+| /fs-review | Review implementation and traceability |
+| /fs-release | Plan or verify a product release |
+
+Claude Code and Cursor use the slash forms above through repository command adapters.
+
+Codex officially shares repository workflows as Skills rather than custom slash commands. In Codex, use:
+
+~~~text
+$fs-init
+$fs-requirement
+$fs-plan
+$fs-implement
+$fs-test
+$fs-review
+$fs-release
+~~~
+
+You can also open **/skills** in Codex and select the matching FSHING skill. The seven public skills route to the existing detailed requirement, planning, implementation, test, review, and release skills.
+
+Typical usage:
+
+~~~text
+$fs-requirement Create customer tag management for target release v1.4.0
+$fs-plan FEAT-2026-0001
+$fs-implement FEAT-2026-0001
+$fs-test FEAT-2026-0001
+$fs-review FEAT-2026-0001
+$fs-release v1.4.0
+~~~
+
 ## Generated Project Shape
 
 ~~~text

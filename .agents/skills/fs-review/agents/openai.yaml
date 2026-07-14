@@ -1,0 +1,4 @@
+interface:
+  display_name: "FSHING 评审"
+  short_description: "评审需求、设计、任务、代码、测试和证据之间的一致性与完整性"
+  default_prompt: "使用 $fs-review 评审指定需求的实现和追溯完整性。"

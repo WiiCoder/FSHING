@@ -1,0 +1,4 @@
+interface:
+  display_name: "FSHING 初始化"
+  short_description: "初始化并校验项目控制仓库、子仓库声明、实际克隆和工作区锁定状态"
+  default_prompt: "使用 $fs-init 初始化或校验当前 FSHING 项目工作区。"
