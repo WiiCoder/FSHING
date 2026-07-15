@@ -1,4 +1,4 @@
 interface:
   display_name: "实现功能"
-  short_description: "按批准的需求版本实施跨组件变更并维护任务到代码的追溯证据"
+  short_description: "按已确认的需求版本实施跨组件变更并维护任务到代码的追溯证据"
   default_prompt: "使用 $feature-implement 实现指定需求并记录代码追溯。"

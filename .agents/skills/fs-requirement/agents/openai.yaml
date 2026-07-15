@@ -1,4 +1,4 @@
 interface:
   display_name: "FSHING 需求"
-  short_description: "创建或变更带永久编号、文档版本、验收标准和追溯关系的需求"
-  default_prompt: "使用 $fs-requirement 创建或变更一个可追溯需求。"
+  short_description: "主动讨论待确认项，并创建、变更和同步一个可追溯需求"
+  default_prompt: "使用 $fs-requirement 主动确认并创建或变更一个可追溯需求。"

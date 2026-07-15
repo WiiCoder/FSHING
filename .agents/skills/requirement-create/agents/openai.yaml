@@ -1,4 +1,4 @@
 interface:
   display_name: "创建需求"
-  short_description: "创建带唯一编号、版本元数据、验收标准和完整追溯关系的新需求"
-  default_prompt: "使用 $requirement-create 创建一个新的可追溯需求。"
+  short_description: "创建并主动确认带唯一编号、验收标准和完整追溯关系的新需求"
+  default_prompt: "使用 $requirement-create 创建、讨论并同步一个新的可追溯需求。"

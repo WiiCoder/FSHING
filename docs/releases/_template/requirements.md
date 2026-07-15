@@ -27,13 +27,13 @@ updated_at: null
 
 ## Cancelled or Removed Requirements
 
-| Requirement | Reason | Approved By | Decision Date |
+| Requirement | Reason | Decision Context | Decision Date |
 |---|---|---|---|
 | | | | |
 
 ## Scope Consistency Check
 
 - [ ] Included requirement target_release 与本版本一致
-- [ ] Included requirement Spec 已批准
+- [ ] Included requirement Spec 的关键问题已确认并完成回写
 - [ ] Deferred requirement 已同步原需求和新版本
 - [ ] 需求状态与 docs/features/index.yaml 一致

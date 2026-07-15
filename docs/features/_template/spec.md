@@ -12,7 +12,6 @@ owner: null
 components: []
 created_at: null
 updated_at: null
-approved_at: null
 supersedes: null
 superseded_by: null
 ---
@@ -83,12 +82,14 @@ superseded_by: null
 
 ## Decisions
 
-| ID | Decision | Rationale | Approved By | Date |
+Status 使用 **open**、**confirmed** 或 **superseded**。待确认项必须同时在对话中主动提出，不能只留在表格中。
+
+| ID | Decision | Rationale | Status | Date |
 |---|---|---|---|---|
-| DEC-001 | | | | |
+| DEC-001 | | | open | |
 
 ## Change Log
 
-| Spec Version | Date | Change | Impact | Approved By |
+| Spec Version | Date | Change | Impact | Decision Context |
 |---|---|---|---|---|
 | 1.0 | | 创建初始需求 | 无 | |

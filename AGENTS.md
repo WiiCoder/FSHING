@@ -75,13 +75,24 @@ Keep indexes and their source documents consistent in the same change. Do not cr
 1. Keep requirement ID, product release, Spec version, Git evidence, and test evidence separate.
 2. Never change or reuse an assigned requirement ID.
 3. Never encode a product version in a requirement ID.
-4. Treat a major Spec change as a new approval cycle before continuing implementation.
+4. Treat a major Spec change as a new confirmation cycle; resolve material questions with the user and synchronize the Spec before continuing affected work.
 5. Maintain the traceability chain: Release → Spec → FR/NFR → AC → TASK → Commit/PR → TC → Evidence.
 6. Do not mark a requirement released until an actual production or formal release is confirmed.
-7. Do not invent approvals, test results, deployment evidence, commit SHAs, PR URLs, dates, owners, or release membership.
+7. Do not invent user decisions, test results, deployment evidence, commit SHAs, PR URLs, dates, owners, or release membership.
 8. If implementation reveals a requirement gap, use the requirement-change workflow before guessing product behavior.
 9. Update affected design, tasks, tests, release records, and indexes whenever their source requirement changes.
 10. Treat workspace.lock.yaml as a reproducibility snapshot, not as release evidence.
+
+## Conversation Confirmation and Synchronization
+
+Apply **docs/standards/conversation-and-synchronization.md** throughout every fs workflow.
+
+1. Proactively present unresolved questions, conflicts, risks, and suggested defaults in the conversation. Do not require the user to inspect Markdown files to discover what needs confirmation.
+2. Treat conversational confirmation and approval records as different concepts. Requirement planning and implementation do not require approval metadata such as **approved_at** or a sign-off record.
+3. Ask only about choices that cannot be discovered safely. Explain the impact and recommendation, then wait for confirmation before taking the affected path.
+4. After confirmation, immediately write the decision back to the authoritative requirement and synchronize every affected index, design, task, test, and release artifact before continuing.
+5. If no material question remains, say so and continue with the next in-scope fs phase without creating a ceremonial approval gate.
+6. Formal release confirmation and evidence-based test or release gates remain separate and must not be inferred.
 
 ## Requirement Directory
 
@@ -127,8 +138,8 @@ Use the simplified FSHING entry skills for user-facing work:
 
 - **fs-init**: initialize or validate a workspace.
 - **fs-requirement**: route requirement creation or change.
-- **fs-plan**: route release scheduling and feature planning.
-- **fs-implement**: implement an approved requirement.
+- **fs-plan**: route release scheduling and feature planning for a confirmed requirement.
+- **fs-implement**: implement a planned requirement.
 - **fs-test**: execute requirement-level verification.
 - **fs-review**: audit implementation and traceability.
 - **fs-release**: plan or verify a release.

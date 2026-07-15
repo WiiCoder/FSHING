@@ -30,7 +30,7 @@ verified_by: []
 
 ## Deviations and Waivers
 
-| ID | Description | Impact | Approved By | Expiry or Follow-up |
+| ID | Description | Impact | Decision | Expiry or Follow-up |
 |---|---|---|---|---|
 | | | | | |
 
@@ -39,11 +39,3 @@ verified_by: []
 | Issue | Severity | Owner | Release Blocking | Resolution |
 |---|---|---|---|---|
 | | | | | |
-
-## Sign-off
-
-| Role | Name | Decision | Date |
-|---|---|---|---|
-| Product | | pending | |
-| Engineering | | pending | |
-| QA | | pending | |

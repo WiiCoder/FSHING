@@ -4,7 +4,6 @@ report_version: "1.0"
 status: draft
 tested_at: null
 updated_at: null
-approved_at: null
 ---
 
 # Release Test Report
@@ -42,7 +41,7 @@ approved_at: null
 
 ## Deviations and Waivers
 
-| Deviation | Impact | Approved By | Follow-up |
+| Deviation | Impact | Decision | Follow-up |
 |---|---|---|---|
 | | | | |
 
@@ -50,7 +49,7 @@ approved_at: null
 
 记录 go、no-go 或 conditional go 结论，以及支持该结论的证据。
 
-## Sign-off
+## Release Decision Record
 
 | Role | Name | Decision | Date |
 |---|---|---|---|

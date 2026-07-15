@@ -4,7 +4,6 @@ spec_version: "1.0"
 design_version: "1.0"
 status: draft
 updated_at: null
-approved_at: null
 ---
 
 # Technical Design
@@ -55,6 +54,8 @@ approved_at: null
 
 ## Open Decisions
 
-| Decision | Owner | Due Date | Blocking |
-|---|---|---|---|
-| | | | yes |
+必须在对话中主动提出会影响需求或设计方向的问题；用户确认后立即把 Resolution 写回，并同步需要变更的 Spec、任务和测试计划。
+
+| Question | Recommendation | Impact | Status | Resolution |
+|---|---|---|---|---|
+| | | | open | |

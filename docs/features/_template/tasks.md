@@ -13,7 +13,7 @@ updated_at: null
 - 每个任务必须关联至少一个 FR/NFR 和 AC。
 - 每个代码任务必须标明 repository ID 和 component ID。
 - 完成任务时记录组件名、commit SHA 或 PR URL。
-- 发现 Spec 空白或冲突时暂停相关任务，先执行需求变更流程。
+- 发现 Spec 空白或冲突时，主动在对话中说明影响和建议；暂停相关任务，确认后先回写需求及受影响文档，再恢复实现。
 
 ## Tasks
 

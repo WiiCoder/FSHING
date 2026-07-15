@@ -64,7 +64,7 @@ FSHING exposes seven public workflow entry points:
 |---|---|
 | /fs-init | Initialize or validate the project workspace |
 | /fs-requirement | Create a requirement or change an existing requirement |
-| /fs-plan | Schedule and plan an approved requirement |
+| /fs-plan | Schedule and plan a confirmed, plan-ready requirement |
 | /fs-implement | Implement a planned requirement |
 | /fs-test | Test the requirement and collect evidence |
 | /fs-review | Review implementation and traceability |
@@ -96,6 +96,8 @@ $fs-test FEAT-2026-0001
 $fs-review FEAT-2026-0001
 $fs-release v1.4.0
 ~~~
+
+Every fs phase proactively surfaces unresolved questions in the conversation, explains their impact, and recommends a path. After the user confirms a decision, the agent immediately writes it back to the requirement and all affected design, task, test, and release artifacts. Requirement progression does not depend on **approved_at** or a separate approval record.
 
 ## Generated Project Shape
 

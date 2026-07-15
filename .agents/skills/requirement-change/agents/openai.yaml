@@ -1,4 +1,4 @@
 interface:
   display_name: "变更需求"
-  short_description: "评估既有需求变更并同步版本、审批、任务、测试和发布影响"
-  default_prompt: "使用 $requirement-change 处理一次需求变更并完成影响分析。"
+  short_description: "评估既有需求变更并同步确认结果、版本、任务、测试和发布影响"
+  default_prompt: "使用 $requirement-change 主动确认需求变更并完成影响同步。"

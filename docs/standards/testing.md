@@ -43,7 +43,7 @@ updated_at: 2026-07-18
 | Status | not-run、passed、failed、blocked、not-applicable |
 | Evidence | 命令输出、报告路径、截图、日志或人工验收记录 |
 
-没有证据的 passed 无效。not-applicable 必须记录原因和批准者。
+没有证据的 passed 无效。not-applicable 必须记录原因和覆盖影响；如果会实质减少验收覆盖，必须主动与用户确认并记录最终决定。
 
 ## 覆盖规则
 
@@ -74,6 +74,6 @@ Spec 版本升级时：
 - 精确命令、测试报告路径或人工步骤；
 - 结果及失败摘要；
 - 关联的 TC、AC 和 Spec 版本；
-- 已知偏差、豁免和批准。
+- 已知偏差、豁免及其确认后的处置决定。
 
 敏感信息不得写入文档。日志和截图应脱敏。
