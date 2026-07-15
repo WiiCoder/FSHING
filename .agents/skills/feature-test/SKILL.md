@@ -1,6 +1,6 @@
 ---
 name: feature-test
-description: Build, execute, and record requirement-level testing against an exact Spec and target release. Use when creating test cases, checking acceptance coverage, running validation, recording evidence, retesting after a Spec change, or deciding whether a feature is release-ready.
+description: Build, execute, and record requirement-level testing against an exact Spec and target release. Use only when explicitly invoked as $feature-test for expert control or when delegated by fs-test or fs.
 ---
 
 # Test Feature

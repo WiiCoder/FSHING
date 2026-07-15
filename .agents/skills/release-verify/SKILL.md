@@ -1,6 +1,6 @@
 ---
 name: release-verify
-description: Verify a planned product version against release scope, requirement states, test evidence, defects, migrations, rollback, and publication records. Use for release readiness, go/no-go review, final release reporting, or marking requirements released after a confirmed formal release.
+description: Verify a planned product version against release scope, requirement states, test evidence, defects, migrations, rollback, and publication records. Use only when explicitly invoked as $release-verify for expert control or when delegated by fs-release or fs.
 ---
 
 # Verify Release

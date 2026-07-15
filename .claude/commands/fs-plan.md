@@ -1,5 +1,5 @@
 ---
-description: Plan an approved FSHING requirement
+description: Plan a confirmed FSHING requirement
 argument-hint: REQUIREMENT_ID
 ---
 

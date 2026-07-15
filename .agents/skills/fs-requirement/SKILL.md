@@ -1,6 +1,6 @@
 ---
 name: fs-requirement
-description: Create, discuss, confirm, or change a traceable FSHING requirement and immediately synchronize confirmed decisions. Use when the user invokes /fs-requirement, $fs-requirement, describes a new feature or bug, supplies an existing requirement ID to revise, changes scope or target release, or asks to maintain requirement metadata.
+description: Create, discuss, confirm, or change a traceable FSHING requirement and immediately synchronize confirmed decisions. Use only when the user explicitly invokes /fs-requirement or $fs-requirement for phase-specific control, or when delegated by fs or another fs phase.
 ---
 
 # FSHING Requirement

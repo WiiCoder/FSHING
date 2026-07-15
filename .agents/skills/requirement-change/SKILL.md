@@ -1,6 +1,6 @@
 ---
 name: requirement-change
-description: Revise and conversationally reconfirm an existing requirement while preserving its permanent ID and propagating version impact. Use when scope, behavior, API, data, permissions, acceptance criteria, target release, tasks, tests, or requirement decisions change.
+description: Revise and conversationally reconfirm an existing requirement while preserving its permanent ID and propagating version impact. Use only when explicitly invoked as $requirement-change for expert control or when delegated by fs-requirement, another fs phase, or fs.
 ---
 
 # Change Requirement

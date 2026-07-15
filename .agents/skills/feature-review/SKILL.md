@@ -1,6 +1,6 @@
 ---
 name: feature-review
-description: Audit a requirement across Spec, design, tasks, implementation, tests, and evidence for standards and traceability. Use when reviewing a feature before verification or release, checking implementation against requirements, or finding missing links and unsupported status claims.
+description: Audit a requirement across Spec, design, tasks, implementation, tests, and evidence for standards and traceability. Use only when explicitly invoked as $feature-review for expert control or when delegated by fs-review or fs.
 ---
 
 # Review Feature

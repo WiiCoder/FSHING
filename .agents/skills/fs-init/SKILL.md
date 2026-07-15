@@ -1,6 +1,6 @@
 ---
 name: fs-init
-description: Initialize or validate a FSHING project workspace. Use when the user invokes /fs-init, $fs-init, asks to create workspace.yaml, clone declared child repositories, generate workspace.lock.yaml, or diagnose template, overlay, initialization, and project modes.
+description: Initialize or validate a FSHING project workspace. Use only when the user explicitly invokes /fs-init or $fs-init for phase-specific control, or when delegated by fs.
 ---
 
 # FSHING Initialize

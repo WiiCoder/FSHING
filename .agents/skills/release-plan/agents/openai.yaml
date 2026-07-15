@@ -2,3 +2,5 @@ interface:
   display_name: "规划发布"
   short_description: "创建和维护产品版本范围、里程碑、延期记录、风险与发布门禁"
   default_prompt: "使用 $release-plan 规划一个产品版本及其需求范围。"
+policy:
+  allow_implicit_invocation: false

@@ -1,6 +1,6 @@
 ---
 name: fs-test
-description: Test and verify a FSHING requirement. Use when the user invokes /fs-test, $fs-test, supplies a requirement ID for acceptance coverage, regression execution, evidence collection, Spec-change retesting, or a release-readiness decision.
+description: Test and verify a FSHING requirement. Use only when the user explicitly invokes /fs-test or $fs-test for phase-specific control, or when delegated by fs.
 ---
 
 # FSHING Test

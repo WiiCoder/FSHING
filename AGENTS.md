@@ -134,7 +134,18 @@ Do not hardcode technology-specific verification commands in reusable FSHING fil
 
 ## Project Skills
 
-Use the simplified FSHING entry skills for user-facing work:
+Use **fs** as the primary user-facing entry point. It accepts a natural-language outcome, determines the operating mode and active work item, infers the authorized checkpoint, and routes the execution skills without requiring the user to coordinate phases.
+
+Examples:
+
+- **$fs 实现客户标签功能**: confirm the requirement and drive planning, implementation, testing, and review as far as evidence allows.
+- **$fs 继续上次的工作**: resume the next valid phase for the active recorded requirement.
+- **$fs 查看当前进度**: inspect and report without mutating repositories.
+- **$fs 发布 v1.4.0**: route release planning or verification while preserving formal release evidence gates.
+
+If a client passes **/fs** or **$fs** as ordinary prompt text, treat it as invocation of **.agents/skills/fs/SKILL.md**. Natural-language FSHING work should enter through **fs** by default. Do not ask ordinary users to select the next phase command when **fs** can route it from state and intent.
+
+The following phase skills remain available as compatibility and direct expert entry points:
 
 - **fs-init**: initialize or validate a workspace.
 - **fs-requirement**: route requirement creation or change.
@@ -145,6 +156,8 @@ Use the simplified FSHING entry skills for user-facing work:
 - **fs-release**: plan or verify a release.
 
 If a client passes **/fs-init**, **/fs-requirement**, **/fs-plan**, **/fs-implement**, **/fs-test**, **/fs-review**, or **/fs-release** as ordinary prompt text, treat it as invocation of the matching **fs-*** skill.
+
+Phase and internal execution skills must not trigger implicitly from generic feature, bug, implementation, test, review, or release language. Invoke them only through **fs**, through another declared execution skill, or through an explicit expert command.
 
 The following skills are the internal execution layer and remain available for direct expert use:
 

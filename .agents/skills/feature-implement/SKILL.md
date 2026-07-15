@@ -1,6 +1,6 @@
 ---
 name: feature-implement
-description: Implement a confirmed and scheduled requirement against a fixed Spec version while maintaining task-to-code traceability. Use when coding a planned feature, bug, technical, security, or operations requirement in one or multiple child repositories declared by a project workspace.
+description: Implement a confirmed and scheduled requirement against a fixed Spec version while maintaining task-to-code traceability. Use only when explicitly invoked as $feature-implement for expert control or when delegated by fs-implement or fs.
 ---
 
 # Implement Feature

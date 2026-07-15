@@ -2,3 +2,5 @@ interface:
   display_name: "FSHING 发布"
   short_description: "规划或验证产品发布版本、需求范围、仓库快照和发布门禁"
   default_prompt: "使用 $fs-release 规划或验证一个产品发布版本。"
+policy:
+  allow_implicit_invocation: false

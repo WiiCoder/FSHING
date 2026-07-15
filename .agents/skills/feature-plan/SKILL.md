@@ -1,6 +1,6 @@
 ---
 name: feature-plan
-description: Turn a confirmed requirement Spec into a concrete technical design, implementation task graph, and traceable test plan. Use when a ready or scheduled requirement needs design, task decomposition, impact analysis, rollout planning, or test coverage before coding.
+description: Turn a confirmed requirement Spec into a concrete technical design, implementation task graph, and traceable test plan. Use only when explicitly invoked as $feature-plan for expert control or when delegated by fs-plan or fs.
 ---
 
 # Plan Feature

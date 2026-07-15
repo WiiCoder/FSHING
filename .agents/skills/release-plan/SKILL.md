@@ -1,6 +1,6 @@
 ---
 name: release-plan
-description: Create or update a semantic product release, its requirement scope, milestones, risks, deferrals, and gates. Use when planning a version, scheduling requirements, moving scope between versions, freezing scope, or maintaining docs/releases.
+description: Create or update a semantic product release, its requirement scope, milestones, risks, deferrals, and gates. Use only when explicitly invoked as $release-plan for expert control or when delegated by fs-release, fs-plan, or fs.
 ---
 
 # Plan Release

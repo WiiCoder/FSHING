@@ -1,6 +1,6 @@
 ---
 name: fs-release
-description: Plan or verify a FSHING product release. Use when the user invokes /fs-release, $fs-release, supplies a semantic version for release scoping, deferral management, code freeze, repository snapshots, go/no-go review, formal release confirmation, or released-state updates.
+description: Plan or verify a FSHING product release. Use only when the user explicitly invokes /fs-release or $fs-release for phase-specific control, or when delegated by fs.
 ---
 
 # FSHING Release

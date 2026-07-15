@@ -2,3 +2,5 @@ interface:
   display_name: "验证发布"
   short_description: "核验版本范围、需求状态、测试证据、缺陷、迁移、回滚和发布事实"
   default_prompt: "使用 $release-verify 验证一个产品版本是否可以发布。"
+policy:
+  allow_implicit_invocation: false

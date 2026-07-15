@@ -1,0 +1,4 @@
+interface:
+  display_name: "FSHING"
+  short_description: "用一个入口自动推进需求、规划、实现、测试、评审和发布"
+  default_prompt: "使用 $fs 根据我的自然语言目标自动推进当前 FSHING 工作。"

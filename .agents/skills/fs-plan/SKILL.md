@@ -1,6 +1,6 @@
 ---
 name: fs-plan
-description: Plan a confirmed, plan-ready FSHING requirement. Use when the user invokes /fs-plan, $fs-plan, provides a requirement ID for release scheduling, technical design, task decomposition, dependency analysis, rollout planning, or acceptance-test coverage before implementation.
+description: Plan a confirmed, plan-ready FSHING requirement. Use only when the user explicitly invokes /fs-plan or $fs-plan for phase-specific control, or when delegated by fs-requirement or fs.
 ---
 
 # FSHING Plan

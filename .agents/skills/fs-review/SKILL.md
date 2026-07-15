@@ -1,6 +1,6 @@
 ---
 name: fs-review
-description: Review a FSHING requirement and its implementation. Use when the user invokes /fs-review, $fs-review, supplies a requirement ID for traceability audit, implementation conformance, status validation, evidence review, or pre-release quality assessment.
+description: Review a FSHING requirement and its implementation. Use only when the user explicitly invokes /fs-review or $fs-review for phase-specific control, or when delegated by fs.
 ---
 
 # FSHING Review

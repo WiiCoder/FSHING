@@ -1,6 +1,6 @@
 ---
 name: fs-implement
-description: Implement a planned FSHING requirement. Use when the user invokes /fs-implement, $fs-implement, supplies a scheduled requirement ID, asks to execute confirmed tasks across declared child repositories, or requests code changes with task-to-commit traceability.
+description: Implement a planned FSHING requirement. Use only when the user explicitly invokes /fs-implement or $fs-implement for phase-specific control, or when delegated by fs.
 ---
 
 # FSHING Implement

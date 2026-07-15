@@ -1,6 +1,6 @@
 ---
 name: requirement-create
-description: Create and conversationally confirm a new versioned and traceable product, bug, technical, security, or operations requirement. Use when recording a new requirement, assigning a permanent requirement ID, creating a feature directory, or adding an entry to docs/features/index.yaml.
+description: Create and conversationally confirm a new versioned and traceable product, bug, technical, security, or operations requirement. Use only when explicitly invoked as $requirement-create for expert control or when delegated by fs-requirement or fs.
 ---
 
 # Create Requirement
